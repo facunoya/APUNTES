@@ -242,7 +242,7 @@
     </section>
     <!--Articulos-->
     <section class="articulos justify-content-start">
-        <h2>Artículos</h2>
+        <h2 class="seccion-titulo texto-negro">Artículos</h2>
         <div class="card">
             <div class="card-header">
                 Más recientes
@@ -264,6 +264,50 @@
                     <li class="list-group-item">El alquimista</li>
                 </a>
             </ul>
+        </div>
+        <a href="#" target="_blank" rel="noopner noreferrer">
+            <button type="button" class="btn btn-info">
+                Ver más artículos
+                <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+        </a>
+    </section>
+    <!--Testimonios-->
+    <section class="testimonios seccion-clara">
+        <h2 class="seccion-titulo">Testimonios</h2>
+        <h3 class="seccion-descripcion">Estos son algúnos testimonios de mis clientes...</h3>
+        <div id="testimonios-carrusel" class="carousel carousel-dark slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="img/cliente1.svg" alt="">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit ipsum dolor sit, amet consectetur adipisicing
+                            elit. Harum, amet consectetur adipisicing elit. Harum
+                            ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                            corporis fuga magnam.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Gino</p>
+                            <p class="cargo">SP Seguridad Privada</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/proyecto2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/proyecto3.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
         </div>
     </section>
     <!--En bootstrap es conveniente separa-->
